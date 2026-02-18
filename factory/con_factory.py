@@ -31,3 +31,19 @@ def export_data(format_type, data):
 
 
 print(export_data("csv", {"id": 2}))
+
+"""
+🎯 Ventajas reales en backend
+
+En un sistema grande:
+
+Puedes registrar implementaciones dinámicamente
+
+Puedes inyectar dependencias
+
+Puedes cambiar implementación sin tocar código cliente
+
+Es testeable
+
+Es escalable
+"""
